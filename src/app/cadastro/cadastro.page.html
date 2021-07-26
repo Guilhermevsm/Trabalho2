@@ -1,0 +1,45 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>App Lotação</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <form >
+  <ion-list lines="full" class="ion-no-margin">
+    <ion-list-header lines="full">
+      <ion-label>
+        <h1>Cadastro</h1>
+      </ion-label>
+      
+    </ion-list-header>
+
+    <ion-item>
+      <ion-label>Nome:</ion-label>
+      <ion-input type="text"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label>Sobrenome:</ion-label>
+      <ion-input type="text" required="true" ></ion-input>
+    </ion-item>
+    
+    <ion-item>
+      <ion-label>Data de Nascimento:</ion-label>
+      <ion-input type="date" required="true" ></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label>E-mail:</ion-label>
+      <ion-input type="email" required="true" ></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label>Senha:</ion-label>
+      <ion-input type="password" required="true"></ion-input>
+    </ion-item>
+    
+    <ion-button (click)="submit" href="home">Cadastrar</ion-button>
+
+  </ion-list>
+</form>
+</ion-content>
+<ion-button href="home">Voltar</ion-button>
+
