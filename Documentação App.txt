@@ -1,0 +1,22 @@
+﻿Documentação Aplicativo de Lotação
+
+
+1.Visão geral
+O aplicativo tem o objetivo de mostrar para seus usuários o estado de lotação de vários locais públicos de grande movimentação. 
+Pois dentro do cenário da pandemia atual é bom conseguir sair de casa para arejar a cabeça, porém as preocupações com a doença atrapalham. 
+É aí que o aplicativo entra em ação, com o usuário conseguindo ver a situação de seus locais favoritos ele vai conseguir analisar melhor os riscos de sair.
+
+
+2.Especificações
+O aplicativo foi criado com o framework Ionic usando Angular.
+O login e cadastro não estão funcionando, se apertar o botão com os campos vazios ele ainda vai mudar de página
+Adicionar novas localidades é simples, precisando apenas criar uma página com suas especificações, a página de pesquisa e as rotas internas serão atualizadas automaticamente.
+A ideia do que não foi implementado é que haja um sistema de monitoramento nos locais que estão do aplicativo e com isso a informação é passada para um servidor e pode ser acessada em tempo real no aplicativo.
+
+
+3.Guia do Usuário
+O usuário deve se cadastrar no próprio aplicativo para poder usá-lo.
+Após o login com o e-mail cadastrado o usuário precisa apenas escolher qual local quer saber as informações usando o scroll ou a barra de pesquisa.
+Na página de informações foram estabelecidos 3 estados: lotado(vermelho), movimentado(amarelo) e vazio(verde).
+O estado vermelho indica que o local está com o movimento maior que o recomendado e indica-se não ir para ele. O estado amarelo indica que o local tem uma quantidade grande de pessoas, mas dentro dos limites. 
+Já o estado verde indica que o local está quase sem movimento e é indicado para ir visitar.
